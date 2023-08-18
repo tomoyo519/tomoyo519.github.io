@@ -3046,13 +3046,13 @@ body {
 @media (min-width: 64em) {
   .page {
     float: right;
-    width: calc(100% - 200px);
-    padding-right: 200px;
+    width: calc(100% - 50px);
+    /* padding-right: 200px; */
   }
 }
 @media (min-width: 80em) {
   .page {
-    width: calc(100% - 300px);
+    width: calc(100% - 100px);
   }
 }
 .page .page__inner-wrap {
