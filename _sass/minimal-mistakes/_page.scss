@@ -37,12 +37,14 @@ body {
 
 .page {
   @include breakpoint($large) {
+    word-break: normal;
     float: right;
     width: calc(80%);
     // padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
+    word-break: normal;
     width: calc(100% - #{$right-sidebar-width});
     // padding-right: $right-sidebar-width;
   }
