@@ -4005,8 +4005,8 @@ body {
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
-  height: 36px;
+  width: 80px;
+  height: 80px;
 }
 @media (min-width: 64em) {
   .author__avatar {
@@ -4016,12 +4016,11 @@ body {
   }
 }
 .author__avatar img {
-  /* max-width: 110px; */
   border-radius: 50%;
 }
 @media (min-width: 64em) {
   .author__avatar img {
-    padding: 5px;
+    padding: 2px;
     border: 1px solid #f2f3f3;
   }
 }
