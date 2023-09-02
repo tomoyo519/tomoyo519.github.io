@@ -18,7 +18,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale: "en-US"
 title: "프론트엔드 개발자 정다희입니다!"
 title_separator: "-"
-subtitle: # site tagline that appears below site title in masthead
+subtitle: "#carpe diem"
 name: "정다희"
 description: "프론트엔드 개발자입니다.  세상을 좀더 편리하고 우아하게 만드는 것에 관심 있습니다."
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
