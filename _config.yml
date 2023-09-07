@@ -28,7 +28,7 @@ teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute: 200
+words_per_minute: 100
 comments:
   provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -106,7 +106,7 @@ author:
   name: "정다희"
   avatar: "/assets/DSC04200.png"
   bio: "프론트엔드 개발자입니다. 세상을 좀더 편리하고 우아하게 만드는 것에 관심 있습니다."
-  location: "Seoul"
+  location: "Korea,Seoul"
   email: "vanessa.cheong1@gmail.com"
   website: "https://www.linkedin.com/in/%EB%8B%A4%ED%9D%AC-%EC%A0%95-3b90a8254/"
   github: "tomoyo519"
@@ -281,6 +281,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
