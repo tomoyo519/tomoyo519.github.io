@@ -718,8 +718,6 @@ figure .fluid-width-video-wrapper {
 figure img {
   width: 100%;
   border-radius: 4px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
 }
 figure > a {
   display: block;
