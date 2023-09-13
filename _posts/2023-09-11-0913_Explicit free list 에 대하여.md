@@ -1,7 +1,3 @@
-# Explicit Free List 에 대하여
-
-# Explicit free lists
-
 # 🙊 명시적 가용 리스트
 
 ### Implicit free list와의 비교
