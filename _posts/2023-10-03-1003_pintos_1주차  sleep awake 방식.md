@@ -1,4 +1,4 @@
-# 핀토스1주차: sleep awake 방식 구현하기
+### 핀토스1주차: sleep awake 방식 구현하기
 
 현재 쓰레드 실행 구조 = busy-waiting 방식
 
