@@ -3531,7 +3531,7 @@ body {
 @media (min-width: 80em) {
   .archive {
     width: calc(100% - 300px);
-    /* padding-right: 300px; */
+    padding-right: 0px !important;
   }
 }
 .archive__item {
