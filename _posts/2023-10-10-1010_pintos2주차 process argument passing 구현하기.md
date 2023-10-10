@@ -1,6 +1,3 @@
-### process 생성을 위한 argument passing(인자전달)
-
-
 ##### Process 생성을 위한 Argument passing ( 인자 전달 )
 
 - Argument passing 의 이유와 목적
@@ -24,8 +21,6 @@
 
   4. 스택은 아래로 증가한다.
 
-
-
 - 테스트 코드로 코드 흐름을 파악할것. 예시 :open-normal
 
   - 테스트케이스에서 어떤 테스트케이스인지 main()으로 보냄. 이경우 open-normal
@@ -38,7 +33,7 @@
   #include "tests/main.h"
 
   int
-  main (int argc UNUSED, char *argv[]) 
+  main (int argc UNUSED, char *argv[])
   {
     test_name = argv[0];
 
@@ -56,25 +51,25 @@
   - tests/userporg/open-normal.c
 
     - open() 에 인자를 담아 시스템 콜을 요청.
-      해당 요청은 `lib/user/syscall.c  `  로 이동.
+      해당 요청은 `lib/user/syscall.c  ` 로 이동.
 
   - lib/user/syscall.c
     해당 인자들은 인터럽트 프레임으로 담아 `userprog/syscall.c` 로 전달된다
 
-    ```
+    ````
     ​```c
     int
     open (const char *file) {
     	return syscall1 (SYS_OPEN, file);
     }
     ​```
-    ```
+    ````
 
     ​
 
   - userprog/syscall.c
 
-    ```c
+    ````c
     ​```c
     void
     syscall_handler (struct intr_frame *f UNUSED) {
@@ -92,12 +87,11 @@
 
     }
     ​```
-    ```
+    ````
 
-     인터럽트 프레임(struct intr_frame *f) 으로 넘어온 사항은 다음과 같이 분리할 수 있다.
+    인터럽트 프레임(struct intr_frame \*f) 으로 넘어온 사항은 다음과 같이 분리할 수 있다.
 
     - rax : 시스템 콜 넘버, 최종 값을 리턴받는 주소
     - rdi : file name 이 들어있고 첫번째 인자이다.
     - rsi : 값이 저장 되어있는주소가 시작되는 주소를 갖고 있고 두번쨰 인자이다.
     - rdx : 명령어 사이즈, 세번째 인자이다.
-
