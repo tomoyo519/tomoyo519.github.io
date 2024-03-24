@@ -38,7 +38,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid:
-    num_posts: # 5 (default)
+    num_posts: 10
     colorscheme: # "light" (default), "dark"
   utterances:
     theme: "github-light" # "github-light" (default), "github-dark"
@@ -111,14 +111,13 @@ author:
   website: "https://www.linkedin.com/in/%EB%8B%A4%ED%9D%AC-%EC%A0%95-3b90a8254/"
   github: "tomoyo519"
   url: "https://www.linkedin.com/in/%EB%8B%A4%ED%9D%AC-%EC%A0%95-3b90a8254/"
-
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:vanessa.cheong1@gmail.com"
-    - label: "Website"
+      icon: "fas fa-fw fa-regular fa-envelope"
+      url: "mailto:vanessa.cheong1@gmail.com"
+    - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
-      url: "https://www.linkedin.com/in/%EB%8B%A4%ED%9D%AC-%EC%A0%95-3b90a8254/"
+      url: "https://www.linkedin.com/in/%EB%8B%A4%ED%9D%AC-%EC%A0%95-3b90a8254"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -131,6 +130,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "About"
+          icon: "fas fa-fw fa-user"
+          url: "https:/bit.ly/daheeCheong"
 
 # Site Footer
 footer:
