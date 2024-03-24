@@ -130,8 +130,8 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-    - label: "About"
-      icon: "fas fa-fw fa-user"
+    - label: "Resume"
+      icon: "fas fa-fw fa-book"
       url: "https:/bit.ly/daheeCheong"
 
 # Site Footer
